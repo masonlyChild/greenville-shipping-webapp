@@ -1,0 +1,19 @@
+.aboutContainer {
+  padding-top: 2%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  /* padding-left: 1%;
+  padding-right: 1%; */
+  width: 75%;
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* background-color: rgb(208, 231, 218); */
+}
+.space {
+  background-color: rgb(180, 177, 177);
+  height: 20px;
+  position: sticky;
+  /* top: 67.9%; */
+  top: 190px;
+}

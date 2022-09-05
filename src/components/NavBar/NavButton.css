@@ -1,0 +1,10 @@
+.navButtonContainer {
+  /* position: sticky;
+  top: 0; */
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* background-color: green; */
+}
