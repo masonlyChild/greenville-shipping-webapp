@@ -1,0 +1,25 @@
+@media only screen and (min-width: 320px) {
+  .services-container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 30px;
+    /* text-align: justify; */
+  }
+
+  .services-intro-parag {
+  }
+  .services-list-cont {
+  }
+  .services-list-item {
+    list-style: none;
+  }
+  .services-footer {
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .services-container {
+    /* font-size: 1.5em; */
+  }
+}

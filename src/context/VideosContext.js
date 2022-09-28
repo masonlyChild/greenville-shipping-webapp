@@ -7,6 +7,9 @@ const videosList = [
   { id: Math.random(), caption: "CEO at work", clip: vid1 },
   { id: Math.random(), caption: "CEO at work", clip: vid1 },
   { id: Math.random(), caption: "CEO at work", clip: vid1 },
+  { id: Math.random(), caption: "CEO at work", clip: vid1 },
+  { id: Math.random(), caption: "CEO at work", clip: vid1 },
+  { id: Math.random(), caption: "CEO at work", clip: vid1 },
 ];
 //CREATING APP-STATE CONTEXT               INITIAL APP-STATE
 export const VideosContext = createContext([[], () => []]);

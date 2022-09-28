@@ -1,8 +1,123 @@
-.headerContainer {
-  display: flex;
-  padding: 1px;
-  background-color: rgb(30, 77, 30);
-  /* position: sticky; */
-  top: 0px;
-  /* overflow: hidden; */
+@media only screen and (min-width: 320px) {
+  .header-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    color: snow;
+    /* padding-bottom: 50px; */
+    background-image: linear-gradient(to right, black, green, black);
+  }
+  .logo {
+    width: 100%;
+    height: 100%;
+  }
+
+  .titleText {
+    margin-top: 0px;
+    margin-bottom: -25px;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+  }
+  .address {
+    margin-bottom: -39px;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+  }
+  .email {
+    display: none;
+  }
+  .mobileNumbers {
+    display: none;
+  }
+}
+/*-----------------------------------------------------------------------*/
+@media only screen and (min-width: 375px) {
+  .titleText {
+    margin-bottom: -26px;
+    letter-spacing: 0.23em;
+  }
+  .address {
+    margin-bottom: -40px;
+  }
+  .email {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+  }
+}
+
+/*-----------------------------------------------------------------------*/
+@media only screen and (min-width: 425px) {
+  .titleText {
+    margin-bottom: -30px;
+    letter-spacing: 0.3em;
+  }
+  .address {
+    margin-bottom: -45px;
+    font-size: 0.79em;
+    letter-spacing: 0.01em;
+  }
+  .email {
+    margin-top: 25px;
+    margin-bottom: -18px;
+    font-size: 0.71em;
+    letter-spacing: 0.1em;
+  }
+  .mobileNumbers {
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 0.62em;
+  }
+}
+/*-----------------------------------------------------------------------*/
+@media only screen and (min-width: 500px) {
+  .header-container {
+    display: grid;
+    grid-template-columns: 130px auto;
+    grid-template-rows: 130px;
+  }
+  .titleText {
+    margin-bottom: -34px;
+    letter-spacing: 0.16em;
+  }
+  .mobileNumbers {
+    display: block;
+    font-size: 0.71em;
+    letter-spacing: 0.02em;
+  }
+}
+/*-----------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) {
+  .header-container {
+    /* padding-bottom: 10px; */
+  }
+  .titleText {
+    font-size: 1.3em;
+    margin-bottom: -30px;
+    letter-spacing: 0.22em;
+  }
+  .address {
+    margin-bottom: -40px;
+    font-size: 0.9em;
+  }
+  .email {
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-size: 0.8em;
+  }
+  .mobileNumbers {
+    font-size: 0.8em;
+  }
+}
+/*-----------------------------------------------------------------------*/
+@media only screen and (min-width: 1024px) {
+}
+/*-----------------------------------------------------------------------*/
+@media only screen and (min-width: 1440px) {
+}
+/*-----------------------------------------------------------------------*/
+@media only screen and (min-width: 1920px) {
 }

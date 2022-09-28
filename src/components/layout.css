@@ -1,0 +1,46 @@
+@media only screen and (min-width: 320px) {
+  .layout-grid-container {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 5px;
+    text-align: center;
+  }
+  .header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    background-color: snow;
+    padding-bottom: 20px;
+  }
+  .menu {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    margin-top: 115px;
+  }
+
+  .main {
+    background-color: snow;
+    margin-top: 150px;
+  }
+
+  .footer {
+    background-color: green;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .menu {
+    width: 100%;
+    margin-top: 128px;
+  }
+}
+@media only screen and (min-width: 425px) {
+  .menu {
+    width: 100%;
+    margin-top: 136px;
+  }
+}

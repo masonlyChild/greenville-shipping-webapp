@@ -1,0 +1,19 @@
+.contact-container {
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+}
+.contact-heading {
+}
+.contact-email-label {
+}
+.contact-email {
+}
+.contact-mobileNumbers-label {
+}
+.contact-mobileNumbers-ulList-cont {
+  list-style: none;
+}
+.contact-mobileNumber {
+}

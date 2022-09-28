@@ -1,68 +1,89 @@
 @media only screen and (min-width: 320px) {
-  .photos-container {
-    margin-top: 10px;
+  .videos-container {
+    margin-top: 20px;
   }
-  .caption_and_image_cont {
-    margin: 1px;
+  .clipCapt_and_clip_cont {
+    margin-left: 2px;
+    margin-right: 2px;
   }
-  .caption {
+  .clipCapt {
     text-align: center;
     background-color: black;
     color: lightgreen;
     margin: 0px;
   }
-  .image {
+  .clip {
     max-width: 100%;
-    object-fit: fill;
+    object-fit: cover;
   }
 }
+
+/*-----------------------------------------------------------------------*/
 @media only screen and (min-width: 500px) {
-  .photos-container {
+  .videos-container {
     display: inline-flex;
   }
 }
 /* @media only screen and (min-width: 683px) {
-  .caption_and_image_cont {
-    width: 222px;
+  .videos-container {
+    display: inline-flex;
+  }
+
+  .clipCapt_and_clip_cont {
+    width: 336px;
+  }
+
+  .clip {
   }
 }
 @media only screen and (min-width: 768px) {
-  .caption_and_image_cont {
-    width: 252px;
+  .clipCapt_and_clip_cont {
+    width: 380px;
+  }
+
+  .clip {
+    height: 250px;
   }
 }
 @media only screen and (min-width: 800px) {
-  .caption_and_image_cont {
-    width: 195px;
+  .clipCapt_and_clip_cont {
+    width: 396px;
   }
 }
 @media only screen and (min-width: 960px) {
-  .caption_and_image_cont {
-    width: 236px;
+  .clipCapt_and_clip_cont {
+    width: 316px;
+  }
+  .clip {
+    height: 200px;
   }
 }
 @media only screen and (min-width: 1024px) {
-  .caption_and_image_cont {
+  .clipCapt_and_clip_cont {
     width: 336px;
   }
 }
 @media only screen and (min-width: 1440px) {
-  .caption_and_image_cont {
+  .clipCapt_and_clip_cont {
     width: 355px;
   }
 }
 @media only screen and (min-width: 1536px) {
-  .caption_and_image_cont {
+  .clipCapt_and_clip_cont {
     width: 378px;
   }
 }
 @media only screen and (min-width: 1920px) {
-  .caption_and_image_cont {
-    width: 388px;
+  .clipCapt_and_clip_cont {
+    
+    width: 476px;
+  }
+  .clip {
+    height: 250px;
   }
 }
 @media only screen and (min-width: 2560px) {
-  .caption_and_image_cont {
+  .clipCapt_and_clip_cont {
     width: 506px;
   }
 } */

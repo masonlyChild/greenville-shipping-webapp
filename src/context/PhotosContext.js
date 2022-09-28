@@ -7,27 +7,29 @@ import pic5 from "../Photos/ph5.JPG";
 import pic6 from "../Photos/ph6.JPG";
 import pic7 from "../Photos/ph7.JPG";
 const pictures = [
-  { id: " Math.random()", caption: "CEO at work", image: pic4 },
+  { id: Math.random(), caption: "CEO at work", image: pic4 },
   { id: Math.random(), caption: "CEO operations", image: pic5 },
   { id: Math.random(), caption: "CEO", image: pic6 },
+  { id: Math.random(), caption: "CEO", image: pic6 },
+
   {
     id: Math.random(),
-    caption: "Employee on Iron Ore shipment plan",
+    caption: "Employee on Iron Ore" /*shipment plan*/,
     image: pic1,
   },
   {
     id: Math.random(),
-    caption: "Iron Ore shipment operations",
+    caption: "Iron Ore shipment " /*operations*/,
     image: pic2,
   },
   {
     id: Math.random(),
-    caption: "Crew discharging rice 'Mv Minoan'",
+    caption: "Crew discharging rice " /*'Mv Minoan'*/,
     image: pic3,
   },
   {
     id: Math.random(),
-    caption: " 'Mv Minoan Grace' rice discharge",
+    caption: " 'Mv Minoan' rice discharge" /*'Mv Minoan'*/,
     image: pic7,
   },
 ];

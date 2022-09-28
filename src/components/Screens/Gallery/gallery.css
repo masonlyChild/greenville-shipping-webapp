@@ -1,0 +1,58 @@
+@media only screen and (min-width: 320px) {
+  .gallery-container {
+    background-color: snow;
+  }
+  .gallery-nav-buttons-cont {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: snow;
+    margin-top: 30px;
+  }
+  .gallery-button-cont {
+    font-size: 1.13em;
+    /* border: 2px solid snow; */
+  }
+}
+@media only screen and (min-width: 375px) {
+  .gallery-nav-buttons-cont {
+    margin-top: 40px;
+  }
+}
+@media only screen and (min-width: 425px) {
+  .gallery-nav-buttons-cont {
+    margin-top: 50px;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .gallery-nav-buttons-cont {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media only screen and (min-width: 683px) {
+  .gallery-nav-buttons-cont {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 800px) {
+}
+@media only screen and (min-width: 960px) {
+}
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 1440px) {
+}
+@media only screen and (min-width: 1536px) {
+}
+@media only screen and (min-width: 1920px) {
+}
+@media only screen and (min-width: 2560px) {
+}
+
+@media only screen and (min-width: 768px) {
+}

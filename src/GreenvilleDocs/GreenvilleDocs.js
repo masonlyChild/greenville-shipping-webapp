@@ -3,12 +3,13 @@
 export const overviewParag1 = (
   <>
     {" "}
-    Greenville Shipping and Stevedoring Company (GSSC) is a 100% Liberian owned
-    Business. It is registered according to law with office located near
-    Freeport of Monrovia. The Company has a vast experience in the Shipping and
-    Stevedoring for more than 15 years till now. Its able management and staff
-    have cruised across the waters in West Africa and beyound. They are very
-    much familiar with cargo handling and Customer services.
+    <span> Greenville Shipping and Stevedoring Company (GSSC)</span>
+    is a 100% Liberian owned Business. It is registered according to law with
+    office located near Freeport of Monrovia. The Company has a vast experience
+    in the Shipping and Stevedoring for more than 15 years till now. Its able
+    management and staff have cruised across the waters in West Africa and
+    beyound. They are very much familiar with cargo handling and Customer
+    services.
   </>
 );
 export const overviewParag2 = (
@@ -30,7 +31,7 @@ export const overviewParag3 = (
 );
 export const profileParag1 = (
   <>
-    <span style={{ color: "darkgreen" }}>
+    <span style={{ color: "darkgreen", fontSize: 20, fontWeight: "bold" }}>
       Greenville Shipping and Stevedoring Company (GSSC)
     </span>{" "}
     was established in 2004 by{" "}

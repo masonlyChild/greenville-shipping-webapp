@@ -1,0 +1,34 @@
+@media only screen and (min-width: 320px) {
+  .services-gallery-container {
+  }
+
+  .serv-gal-image-caption {
+    margin: 0px;
+  }
+  .serv-gal-image {
+    max-width: 100%;
+    object-fit: fill;
+  }
+
+  .serv-gal-video-caption {
+    margin: 0px;
+  }
+  .serv-gal-video {
+    max-width: 100%;
+    object-fit: cover;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .serv-gal-images-cont {
+    display: inline-flex;
+  }
+  .serv-gal-caption-and-image-cont {
+    margin: 1px;
+  }
+  .serv-gal-videos-cont {
+    display: inline-flex;
+  }
+  .serv-gal-caption-and-video-cont {
+    margin: 1px;
+  }
+}

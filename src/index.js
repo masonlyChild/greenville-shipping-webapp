@@ -18,6 +18,7 @@ import ProfileContextProvider from "./context/ProfileContext";
 import ManagementContextProvider from "./context/ManagementContext";
 import PhotosContextProvider from "./context/PhotosContext";
 import VideosContextProvider from "./context/VideosContext";
+import Gallery from "./components/Screens/Gallery/Gallery";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -35,12 +36,15 @@ root.render(
 
                   {/* </Route> */}
                   <Route path="services" element={<Services />} />
+                  <Route path="gallery" element={<Gallery />}>
+                    <Route index element={<Photos />} />
+                    <Route path="gallery/photos" element={<Photos />} />
+                    <Route path="gallery/videos" element={<Videos />} />
+                    <Route path="gallery/management" element={<Management />} />
+                  </Route>
                   <Route path="contact" element={<Contact />} />
                   <Route path="profile" element={<Profile />} />
-                  <Route path="photos" element={<Photos />} />
-                  <Route path="videos" element={<Videos />} />
                   <Route path="legalDocs" element={<Documents />} />
-                  <Route path="management" element={<Management />} />
                   <Route
                     path="*"
                     element={

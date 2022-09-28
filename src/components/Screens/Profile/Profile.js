@@ -5,13 +5,13 @@ import {
   profileParag2,
   profileParag3,
   profileParag4,
-  styles2,
 } from "../../../GreenvilleDocs/GreenvilleDocs";
 import "./Profile.css";
+// import styles from "../../Styles/styles.module.css";
 export default function Profile() {
   const [profile, setProfile] = useContext(ProfileContext);
   return (
-    <div style={styles.profileContainer}>
+    <div className="profileContainer">
       <p>{profileParag1}</p>
       <p>{profileParag2}</p>
       <p>{profileParag3}</p>
@@ -19,19 +19,19 @@ export default function Profile() {
     </div>
   );
 }
-const styles = {
-  profileContainer: {
-    marginTop: "2%",
-    marginLeft: "2%",
-    marginRight: "2%",
-    fontSize: 20,
-    // textAlign: "center",
-    // overflowY: "auto",
-    // height: 700,
-  },
-  companyName: {
-    color: "darkgreen",
-    fontWeight: "bold",
-  },
-  specialWords: { fontWeight: "bold", fontStyle: "italic", color: "blue" },
-};
+// const styles = {
+//   profileContainer: {
+//     marginTop: ".1%",
+//     marginLeft: "2%",
+//     marginRight: "2%",
+//     fontSize: 20,
+//     // textAlign: "center",
+//     // overflowY: "auto",
+//     // height: 700,
+//   },
+//   companyName: {
+//     color: "darkgreen",
+//     fontWeight: "bold",
+//   },
+//   specialWords: { fontWeight: "bold", fontStyle: "italic", color: "blue" },
+// };

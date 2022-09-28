@@ -1,0 +1,120 @@
+/*HOME COMPONENT STYLES*************************************************************************/
+
+/*OVERVIEW COMPONENT STYLES*************************************************************************/
+
+/*SERVICES COMPONENT STYLES*************************************************************************/
+.servicesContainer {
+  margin-top: 0.1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+}
+.servicesItemsCont {
+}
+.servicesIntroText {
+}
+.servicesListCont {
+  list-style-type: none;
+
+  color: blue;
+}
+.servicesListItem {
+}
+.contactUsOptionText {
+  color: navy;
+}
+/*PHOTOS COMPONENT STYLES*************************************************************************/
+
+/*VIDEOS COMPONENT STYLES*************************************************************************/
+.videosContainer {
+  margin-top: 0.5%;
+  text-align: center;
+  overflow-y: auto;
+  height: 705;
+  /* // marginLeft: .5%;
+    // marginRight: .5%;} */
+}
+.videosFlexCont {
+  display: inline-flex;
+
+  /* border: 1px solid darkgreen; */
+  margin: 2px;
+}
+.videoItemCont {
+}
+.videoCaption {
+  text-align: center;
+  margin: 0px;
+  /* //color: lightgreen; */
+  background-color: gray;
+}
+.videoClip {
+  width: 310px;
+  height: 250px;
+  object-fit: fill;
+}
+/*CONTACT COMPONENT STYLES*************************************************************/
+
+.contactContainer1 {
+  margin-top: 0.1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+  color: black;
+}
+.contactHeading1 {
+  font-weight: bold;
+}
+.emailLabel1 {
+  text-decoration: underline;
+}
+.email1 {
+  font-weight: bold;
+}
+.mobileNumberLabel1 {
+  text-decoration: underline;
+}
+.mobileNumberListCont1 {
+  list-style-type: none;
+  font-weight: bold;
+}
+/*PROFILE COMPONENT STYLES*************************************************************/
+.profileContainer {
+  margin-top: 0.1%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  font-size: 20;
+  text-align: center;
+  overflow-y: auto;
+  height: 700;
+}
+/* @media only screen and (max-width: 320px) {
+  .headerContainer {
+    background-color: red;
+  }
+} */
+/* @media only screen and (max-width: 375px) {
+  .headerContainer {
+    background-color: green;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .headerContainer {
+    background-color: blue;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .headerContainer {
+    background-color: pink;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .headerContainer {
+    background-color: yellow;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .headerContainer {
+    background-color: orange;
+  }
+} */

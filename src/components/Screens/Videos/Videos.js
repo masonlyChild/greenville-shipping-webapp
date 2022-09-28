@@ -1,46 +1,38 @@
 import React, { useContext } from "react";
 import { VideosContext } from "../../../context/VideosContext";
-
+import "./videos.css";
 export default function Videos() {
   const [videos, setVideos] = useContext(VideosContext);
-  return (
-    <div style={styles.videosContainer}>
-      {videos.map((video) => (
-        <div style={styles.videoFileCont}>
-          <div>
-            <p style={styles.caption}>{video.caption}</p>
-            <video
-              style={{ objectFit: "fill" }}
-              controls
-              width={400}
-              height={300}
-            >
-              <source src={video.clip} type="video/mp4" />
-            </video>
-          </div>
-        </div>
-      ))}
+  return videos.map((video) => (
+    <div key={video.id} className="videos-container">
+      <div className="clipCapt_and_clip_cont">
+        <p className="clipCapt">{video.caption}</p>
+        <video className="clip" controlsList="375px" controls>
+          <source src={video.clip} type="video/mp4" />
+        </video>
+      </div>
     </div>
-  );
+  ));
 }
-const styles = {
-  videosContainer: {
-    marginTop: ".5%",
-    marginLeft: ".5%",
-    marginRight: ".5%",
-    textAlign: "center",
-    overflowY: "auto",
-    height: 700,
-  },
-  videoFileCont: {
-    border: "1px solid darkgreen",
-    margin: 4,
-    display: "inline-flex",
-  },
-  caption: {
-    textAlign: "center",
-    margin: 0,
-    color: "lightgreen",
-    backgroundColor: "black",
-  },
-};
+// const styles = {
+//   videosContainer: {
+//     marginTop: ".5%",
+//     textAlign: "center",
+//     overflowY: "auto",
+//     height: 705,
+//     // marginLeft: ".5%",
+//     // marginRight: ".5%",
+//   },
+//   videoFileCont: {
+//     display: "inline-flex",
+
+//     border: "1px solid darkgreen",
+//     margin: 2,
+//   },
+//   caption: {
+//     textAlign: "center",
+//     margin: 0,
+//     //color: "lightgreen",
+//     backgroundColor: "gray",
+//   },
+// };
