@@ -15,75 +15,35 @@
   .clip {
     max-width: 100%;
     object-fit: cover;
+    object-position: center;
   }
 }
 
-/*-----------------------------------------------------------------------*/
 @media only screen and (min-width: 500px) {
   .videos-container {
     display: inline-flex;
   }
-}
-/* @media only screen and (min-width: 683px) {
-  .videos-container {
-    display: inline-flex;
-  }
-
   .clipCapt_and_clip_cont {
-    width: 336px;
-  }
-
-  .clip {
+    width: 475px;
   }
 }
 @media only screen and (min-width: 768px) {
   .clipCapt_and_clip_cont {
-    width: 380px;
-  }
-
-  .clip {
-    height: 250px;
-  }
-}
-@media only screen and (min-width: 800px) {
-  .clipCapt_and_clip_cont {
-    width: 396px;
-  }
-}
-@media only screen and (min-width: 960px) {
-  .clipCapt_and_clip_cont {
-    width: 316px;
-  }
-  .clip {
-    height: 200px;
+    width: 370px;
   }
 }
 @media only screen and (min-width: 1024px) {
   .clipCapt_and_clip_cont {
-    width: 336px;
+    width: 495px;
   }
 }
 @media only screen and (min-width: 1440px) {
   .clipCapt_and_clip_cont {
-    width: 355px;
-  }
-}
-@media only screen and (min-width: 1536px) {
-  .clipCapt_and_clip_cont {
-    width: 378px;
+    width: 700px;
   }
 }
 @media only screen and (min-width: 1920px) {
   .clipCapt_and_clip_cont {
-    
-    width: 476px;
-  }
-  .clip {
-    height: 250px;
+    width: 900px;
   }
 }
-@media only screen and (min-width: 2560px) {
-  .clipCapt_and_clip_cont {
-    width: 506px;
-  }
-} */

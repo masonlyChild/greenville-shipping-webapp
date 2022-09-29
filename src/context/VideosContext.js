@@ -1,15 +1,16 @@
 import React, { createContext, useState } from "react";
 import vid1 from "../Videos/movie.mp4";
+import vid5 from "../Videos/movie1.mp4";
 
 const videosList = [
-  { id: Math.random(), caption: "CEO at work", clip: vid1 },
-  { id: Math.random(), caption: "CEO at work", clip: vid1 },
-  { id: Math.random(), caption: "CEO at work", clip: vid1 },
-  { id: Math.random(), caption: "CEO at work", clip: vid1 },
-  { id: Math.random(), caption: "CEO at work", clip: vid1 },
-  { id: Math.random(), caption: "CEO at work", clip: vid1 },
-  { id: Math.random(), caption: "CEO at work", clip: vid1 },
-  { id: Math.random(), caption: "CEO at work", clip: vid1 },
+  { id: Math.random(), caption: "CEO at work", clip: vid5 },
+  { id: Math.random(), caption: "CEO at work", clip: vid5 },
+  { id: Math.random(), caption: "CEO at work", clip: vid5 },
+  { id: Math.random(), caption: "CEO at work", clip: vid5 },
+  { id: Math.random(), caption: "CEO at work", clip: vid5 },
+  { id: Math.random(), caption: "CEO at work", clip: vid5 },
+  { id: Math.random(), caption: "CEO at work", clip: vid5 },
+  { id: Math.random(), caption: "CEO at work", clip: vid5 },
 ];
 //CREATING APP-STATE CONTEXT               INITIAL APP-STATE
 export const VideosContext = createContext([[], () => []]);
