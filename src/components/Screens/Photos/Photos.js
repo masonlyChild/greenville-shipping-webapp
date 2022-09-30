@@ -12,15 +12,3 @@ export default function Photos() {
     </div>
   ));
 }
-{
-  /* <div className="photosContainer">
-{photos.map((photo) => (
-  <div key={photo.id} className="caption_and_image_FlexCont">
-    <div className="caption_and_image_cont">
-      <p className="caption">{photo.caption}</p>
-      <img src={photo.image} className="image" />
-    </div>
-  </div>
-))}
-</div> */
-}
