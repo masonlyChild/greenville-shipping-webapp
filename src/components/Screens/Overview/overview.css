@@ -26,6 +26,6 @@
 }
 @media only screen and (min-width: 1024px) {
   .overview-container {
-    grid-template-columns: 500px auto;
+    grid-template-columns: 700px auto;
   }
 }

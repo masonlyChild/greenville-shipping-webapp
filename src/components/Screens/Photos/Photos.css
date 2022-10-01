@@ -3,7 +3,10 @@
     margin-top: 10px;
   }
   .caption_and_image_cont {
-    margin: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   .caption {
     text-align: center;
@@ -12,8 +15,8 @@
     margin: 0px;
   }
   .image {
-    max-width: 100%;
-    object-fit: cover;
+    width: 100%;
+    object-fit: fill;
     object-position: center;
   }
 }

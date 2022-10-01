@@ -7,7 +7,7 @@ export default function Videos() {
     <div key={video.id} className="videos-container">
       <div className="clipCapt_and_clip_cont">
         <p className="clipCapt">{video.caption}</p>
-        <video className="clip" controlsList="375px" controls>
+        <video className="clip" controls>
           <source src={video.clip} type="video/mp4" />
         </video>
       </div>

@@ -7,45 +7,15 @@ import pic5 from "../Photos/ph5.JPG";
 import pic6 from "../Photos/ph6.JPG";
 import pic7 from "../Photos/ph7.JPG";
 import pic8 from "../Photos/testi.jpg";
+import pct from "../Photos/sh.JPG";
 
 const pictures = [
-  { id: Math.random(), caption: "CEO at work", image: pic8 },
-  { id: Math.random(), caption: "CEO at work", image: pic8 },
-  { id: Math.random(), caption: "CEO at work", image: pic8 },
-  { id: Math.random(), caption: "CEO at work", image: pic8 },
-  { id: Math.random(), caption: "CEO at work", image: pic8 },
-  { id: Math.random(), caption: "CEO at work", image: pic8 },
-  { id: Math.random(), caption: "CEO at work", image: pic8 },
-  { id: Math.random(), caption: "CEO at work", image: pic8 },
-  { id: Math.random(), caption: "CEO at work", image: pic8 },
-  { id: Math.random(), caption: "CEO at work", image: pic8 },
-  { id: Math.random(), caption: "CEO at work", image: pic8 },
-  { id: Math.random(), caption: "CEO at work", image: pic8 },
-  // { id: Math.random(), caption: "CEO at work", image: pic4 },
-  // { id: Math.random(), caption: "CEO operations", image: pic5 },
-  // { id: Math.random(), caption: "CEO", image: pic6 },
-  // { id: Math.random(), caption: "CEO", image: pic6 },
-
-  // {
-  //   id: Math.random(),
-  //   caption: "Employee on Iron Ore",
-  //   image: pic1,
-  // },
-  // {
-  //   id: Math.random(),
-  //   caption: "Iron Ore shipment ",
-  //   image: pic2,
-  // },
-  // {
-  //   id: Math.random(),
-  //   caption: "Crew discharging rice ",
-  //   image: pic3,
-  // },
-  // {
-  //   id: Math.random(),
-  //   caption: " 'Mv Minoan' rice discharge",
-  //   image: pic7,
-  // },
+  { id: Math.random(), caption: "CEO at work", image: pct },
+  { id: Math.random(), caption: "CEO at work", image: pct },
+  { id: Math.random(), caption: "CEO at work", image: pct },
+  { id: Math.random(), caption: "CEO at work", image: pct },
+  { id: Math.random(), caption: "CEO at work", image: pct },
+  { id: Math.random(), caption: "CEO at work", image: pct },
 ];
 //CREATING APP-STATE CONTEXT               INITIAL APP-STATE
 export const PhotosContext = createContext([[], () => []]);

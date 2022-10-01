@@ -24,7 +24,7 @@
     display: inline-flex;
   }
   .clipCapt_and_clip_cont {
-    width: 475px;
+    width: 470px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -37,7 +37,7 @@
     width: 495px;
   }
 }
-@media only screen and (min-width: 1440px) {
+/* @media only screen and (min-width: 1440px) {
   .clipCapt_and_clip_cont {
     width: 700px;
   }
@@ -46,4 +46,4 @@
   .clipCapt_and_clip_cont {
     width: 900px;
   }
-}
+} */

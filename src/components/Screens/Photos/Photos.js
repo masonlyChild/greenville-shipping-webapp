@@ -6,7 +6,7 @@ export default function Photos() {
   return photos.map((photo) => (
     <div key={photo.id} className="photos-container">
       <div className="caption_and_image_cont">
-        <p className="caption">{photo.caption}</p>
+        {/* <p className="caption">{photo.caption}</p> */}
         <img src={photo.image} className="image" />
       </div>
     </div>
